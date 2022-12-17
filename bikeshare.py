@@ -46,7 +46,7 @@ def get_filters():
         else:
           break
 
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 
@@ -102,7 +102,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -123,7 +123,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -139,7 +139,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 def user_stats(df,city):
     """Displays statistics on bikeshare users."""
@@ -163,8 +163,9 @@ def user_stats(df,city):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 def display_data(df):
+    # Display 5 rows each time
     print(df.head())
     start_loc = 0
     while True:
