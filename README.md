@@ -7,8 +7,7 @@
 Git Project 
 
 ### Description
-Describe what your project is about and what it does
-
+This project is an application of what has been learned through Udacity
 ### Files used
 My project contains:
 one python file "bikeshare.py " 
