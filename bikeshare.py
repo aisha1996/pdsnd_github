@@ -165,6 +165,7 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 def display_data(df):
+    # Display 5 rows each time  
     print(df.head())
     start_loc = 0
     while True:
