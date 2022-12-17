@@ -4,11 +4,13 @@
 17/12/2022
 
 ### Project Title
-Git Project 
+Git & Python Projects 
 
 ### Description
 This project is an application of what has been learned through Udacity
+Which is related to Git and the previous project "Python"
 ### Files used
+
 My project contains:
 one python file "bikeshare.py " 
 three excel files:
